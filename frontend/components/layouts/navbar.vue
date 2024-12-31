@@ -1,7 +1,8 @@
 <template>
   <v-container fluid class="navbar-wrapper">
     <v-container class="navbar-logo">
-      <span class="navbar-title">Ações em Foco</span>
+      <v-icon color="#ffde59">mdi-bonsai</v-icon>
+      <span class="navbar-title">Stocks in Focus</span>
       <v-icon color="#ffde59">mdi-magnify</v-icon>
     </v-container>
     <v-container class="navbar-login">
@@ -11,7 +12,8 @@
   </v-container>
 </template>
 <script setup></script>
-<style scoped>
+<style scoped lang="scss">
+@import "@/assets/styles/_variables.scss";
 @font-face {
   font-family: "leagueSpartan";
   src: url("@/assets/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf")
@@ -24,7 +26,7 @@
   align-items: center;
   padding: 1%;
   color: white;
-  background-color: rgb(15, 15, 15);
+  background-color: $color-gray;
   position: fixed;
   top: 0;
   left: 0;
@@ -40,7 +42,7 @@
 
 .navbar-title {
   font-family: "leagueSpartan", sans-serif;
-  font-size: 3vh;
+  font-size: 4vh;
 }
 
 .navbar-login {
@@ -57,7 +59,7 @@
   width: auto !important;
 }
 .navbar-button-sign_up {
-  background-color: #ffde59 !important;
+  background-color: $color-yellow !important;
   color: rgb(48, 46, 46) !important;
   height: 4vh !important;
   width: auto !important;
