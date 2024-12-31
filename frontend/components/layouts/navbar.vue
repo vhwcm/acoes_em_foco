@@ -1,9 +1,12 @@
 <template>
   <v-container fluid class="navbar-wrapper">
     <v-container class="navbar-logo">
-      <v-icon color="#ffde59">mdi-bonsai</v-icon>
       <span class="navbar-title">Stocks in Focus</span>
-      <v-icon color="#ffde59">mdi-magnify</v-icon>
+      <img
+        src="@/assets/icons/bonsai.png"
+        alt="Bonsai Icon"
+        class="custom-icon"
+      />
     </v-container>
     <v-container class="navbar-login">
       <v-btn class="navbar-button-login" variant="tonal"> Login </v-btn>
@@ -35,14 +38,20 @@
   border-bottom: 0.5vh solid #ffde59;
 }
 
-#navbar-logo {
-  height: 50px;
-  width: 50px;
+.navbar-logo {
+  align-items: flex-end; /* Changed from center to flex-end */
+}
+
+.navbar-logo img.custom-icon {
+  height: 40px;
+  width: 40px;
 }
 
 .navbar-title {
   font-family: "leagueSpartan", sans-serif;
   font-size: 4vh;
+  border-top: 2px solid #ffde59;
+  padding-top: 10px;
 }
 
 .navbar-login {
