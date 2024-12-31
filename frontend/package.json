@@ -1,0 +1,17 @@
+{
+  "name": "my-nuxt-express-app-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Nuxt and Express application",
+  "author": "Your Name",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "nuxt": "^2.15.0",
+    "nodemon": "^2.0.0"
+  },
+  "devDependencies": {}
+}

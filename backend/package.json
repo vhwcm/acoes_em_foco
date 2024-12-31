@@ -1,0 +1,17 @@
+{
+  "name": "my-nuxt-express-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Nuxt and Express application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^2.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
