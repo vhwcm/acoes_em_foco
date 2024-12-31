@@ -78,7 +78,7 @@
 
 @media (max-width: 600px) {
   .banner-title {
-    font-size: 3rem;
+    font-size: 2.4rem;
     width: 90vw;
   }
 }

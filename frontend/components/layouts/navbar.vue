@@ -73,4 +73,17 @@
   height: 4vh !important;
   width: auto !important;
 }
+@media (max-width: 600px) {
+  .navbar-wrapper {
+    height: 12vh;
+  }
+  .navbar-button-login {
+    height: 6vh !important;
+    width: 10vh !important;
+  }
+  .navbar-button-sign_up {
+    height: 6vh !important;
+    width: 10vh !important;
+  }
+}
 </style>
