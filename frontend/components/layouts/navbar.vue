@@ -9,8 +9,12 @@
       />
     </v-container>
     <v-container class="navbar-login">
-      <v-btn class="navbar-button-login" variant="tonal"> Login </v-btn>
-      <v-btn class="navbar-button-sign_up" variant="tonal"> Sing up </v-btn>
+      <NuxtLink to="/login">
+        <v-btn class="navbar-button-login" variant="tonal"> Login </v-btn>
+      </NuxtLink>
+      <NuxtLink to="/signup">
+        <v-btn class="navbar-button-sign_up" variant="tonal"> Sign up </v-btn>
+      </NuxtLink>
     </v-container>
   </v-container>
 </template>

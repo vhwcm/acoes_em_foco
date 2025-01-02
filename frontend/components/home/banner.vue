@@ -27,7 +27,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("@/assets/images/bonsai_dorada.png");
+  background-image: url("@/assets/images/bonsai_dourada.png");
   background-size: cover;
   background-position: center;
   filter: blur(5px); /* Ajuste o valor conforme necessário */
